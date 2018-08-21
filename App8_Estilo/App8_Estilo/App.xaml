@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App8_Estilo.App">
 	<Application.Resources>
-    
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="BackgroundColor" Value="Violet"/>
+                <Setter Property="TextColor" Value="DarkMagenta"/>
+            </Style>
+        </ResourceDictionary>
 	</Application.Resources>
 </Application>

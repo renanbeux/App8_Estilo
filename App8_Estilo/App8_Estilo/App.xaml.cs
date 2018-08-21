@@ -11,7 +11,7 @@ namespace App8_Estilo
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new Menu.Master();
 		}
 
 		protected override void OnStart ()
